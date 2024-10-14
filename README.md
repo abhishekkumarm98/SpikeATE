@@ -11,7 +11,7 @@
 
 ### Steps to run code
 
-### To download SemEval-2014, 2015, and 2016 datasets, click here [SemEval-2014, SemEval-2015, SemEval-2016][1][2][3]
+### To download SemEval-2014, 2015, and 2016 datasets, click here, [SemEval-2014][1], [SemEval-2015][2], [SemEval-2016][3]
 
 ```
 train_data_path = '/SemEval/SemEval14/Laptops_Train.xml'
