@@ -5,13 +5,17 @@
 
 * Python 3.10.12
 * Numpy 1.26.4
+* Spacy 3.7.5
+* Fasttext 0.9.3
 * Torch 2.4.1+cu121
 * GPU : Tesla T4
 
 
 ### Steps to run code
 
-### To download SemEval-2014, 2015, and 2016 datasets, click here, [SemEval-2014][1], [SemEval-2015][2], [SemEval-2016][3]
+1. To download SemEval-2014, 2015, and 2016 datasets, click here, [SemEval-2014][1], [SemEval-2015][2], [SemEval-2016][3]
+2. To download [Yelp review][4] and [Amazon Cell phones and accessories][5] datasets. 
+3. To download the [glove][6] and [fasttext][7] embeddings.
 
 ```
 train_data_path = '/SemEval/SemEval14/Laptops_Train.xml'
@@ -36,7 +40,10 @@ python main.py --trainDataPath {train_data_path} --testDataPath {test_data_path}
 
 
 
-
 [1]: https://alt.qcri.org/semeval2014/task4/
 [2]: https://alt.qcri.org/semeval2015/task12/
 [3]: https://alt.qcri.org/semeval2016/task5/
+[4]: https://www.yelp.com/dataset
+[5]: https://cseweb.ucsd.edu/~jmcauley/datasets.html#amazon_reviews
+[6]: https://nlp.stanford.edu/projects/glove/
+[7]: https://dl.fbaipublicfiles.com/fasttext/vectors-crawl/cc.en.300.bin.gz

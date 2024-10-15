@@ -554,7 +554,7 @@ if __name__ == "__main__":
         print("Number of output channels:",out_features)
         print("Number of validation samples:", valset_num)
         print("Type of pre_embedding:", type_pre_embedding)
-        print("Seed num", seed_num+run)
+        print("Seed num:", seed_num+run)
         print("Number of runs:", runs)
         print("Training path:", train_data_path)
         print("Test path:", test_data_path)
