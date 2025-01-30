@@ -1,5 +1,5 @@
 # SpikeATE
-# Web Conference2025: Efficient Aspect Term Extraction using Spiking Neural Network
+# ICML2025: Efficient Aspect Term Extraction using Spiking Neural Network
 
 ## Envrionment
 
