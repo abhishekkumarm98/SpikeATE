@@ -16,7 +16,7 @@
 1. To download SemEval-2014, 2015, and 2016 datasets, click here, [SemEval-2014][1], [SemEval-2015][2], [SemEval-2016][3]
 2. To download [Yelp review][4] and [Amazon Cell phones and accessories][5] datasets. 
 3. To download the [glove][6] and [fasttext][7] embeddings.
-4. Then, use DataProcessing.ipynb file to preprocess the datasets.
+4. Then, use DataProcessing.ipynb file to preprocess the datasets. dsjdsj
 
 ```
 train_data_path = '/SemEval/SemEval14/Laptops_Train.xml'
