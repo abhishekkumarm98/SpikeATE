@@ -39,6 +39,7 @@ test_data_path = '/SemEval/SemEval16/EN_REST_SB1_TEST.xml.gold'
 python main.py --trainDataPath {train_data_path} --testDataPath {test_data_path} --batchSize 8 --seedNum 43 --epoch 22 --resetMechanism "zero" --spkNature "ternary" --numTimeSteps 6 --seqLen 78
 ```
 
+Convolutional spike encoding operation for the first two time steps.
 ![Convolutional spike encoding operation for the first two time steps.](SpkEnc_SpikeATE.png)
 
 
