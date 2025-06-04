@@ -1,5 +1,5 @@
 # SpikeATE
-# ICML2025: Efficient Aspect Term Extraction using Spiking Neural Network
+# ICDM2025: Efficient Aspect Term Extraction using Spiking Neural Network
 
 ## Envrionment
 
