@@ -40,7 +40,7 @@ python main.py --trainDataPath {train_data_path} --testDataPath {test_data_path}
 ```
 
 Convolutional spike encoding operation for the first two time steps.
-![Convolutional spike encoding operation for the first two time steps.](SpkEnc_SpikeATE.png)
+(SpkEnc_SpikeATE.png)
 
 
 
