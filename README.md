@@ -1,5 +1,5 @@
 # SpikeATE
-# ICDM2025: Efficient Aspect Term Extraction using Spiking Neural Network
+# ACM Transactions on Knowledge Discovery from Data 2025: Efficient Aspect Term Extraction using Spiking Neural Network
 
 ## Envrionment
 
