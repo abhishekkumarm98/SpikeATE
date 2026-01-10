@@ -1,5 +1,5 @@
 # SpikeATE
-# ACM Transactions on Knowledge Discovery from Data 2025: Efficient Aspect Term Extraction using Spiking Neural Network
+# Efficient Aspect Term Extraction using Spiking Neural Network
 
 ## Envrionment
 
@@ -87,11 +87,6 @@ train_data_path = '/SemEval/SemEval16/ABSA16_Restaurants_Train_SB1_v2.xml'
 test_data_path = '/SemEval/SemEval16/EN_REST_SB1_TEST.xml.gold'
 python main.py --trainDataPath {train_data_path} --testDataPath {test_data_path} --batchSize 8 --seedNum 43 --epoch 22 --resetMechanism "zero" --spkNature "ternary" --numTimeSteps 6 --seqLen 78 --vTh 0.1 --scDecay 0.1 --vDecay 0.1 --nCls 3 
 ```
-
-### Convolutional spike encoding operation for the first two time steps:
-
-![](SpkEnc_SpikeATE.png)
-
 
 
 [1]: https://alt.qcri.org/semeval2014/task4/
